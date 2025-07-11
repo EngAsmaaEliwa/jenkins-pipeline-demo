@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Run Python Script') {
             steps {
-                bat 'python main.py'
+                bat '"C:\Users\Mohamed Atef\AppData\Local\Programs\Python\Python313\python.exe" main.py'
             }
         }
 
